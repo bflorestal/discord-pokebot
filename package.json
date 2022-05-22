@@ -1,0 +1,36 @@
+{
+  "name": "discord-pokebot",
+  "version": "0.1.0",
+  "description": "Un bot Discord qui utilise les données de PokéAPI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bflorestal/discord-pokebot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "pokemon",
+    "pokeapi"
+  ],
+  "author": "Bryan Florestal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bflorestal/discord-pokebot/issues"
+  },
+  "homepage": "https://github.com/bflorestal/discord-pokebot#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.33.0",
+    "discord.js": "^13.7.0"
+  }
+}

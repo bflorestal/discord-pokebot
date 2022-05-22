@@ -1,0 +1,12 @@
+# Fichiers Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Fichiers Git
+.git
+.github
+.gitignore
+
+# Créés lors de l'installation
+node_modules
