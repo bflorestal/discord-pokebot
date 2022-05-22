@@ -1,11 +1,12 @@
 {
   "name": "discord-pokebot",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Un bot Discord qui utilise les données de PokéAPI",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon .",
+    "lint": "eslint .",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
